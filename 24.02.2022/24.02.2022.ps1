@@ -44,4 +44,14 @@
 
 #Test-Path $profile.CurrentUserCurrentHost
 
-New-Item -Path $profile.CurrentUserCurrentHost
+#New-Item -Path $profile.CurrentUserCurrentHost
+
+#Get-ExecutionPolicy;
+
+#Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+
+#Get-Command -Noun Content
+
+#Get-Content $profile
+
+Set-Content $profile -Value "New-PSDrive -Name taif -PSProvider FileSystem -Root C:\Users\Stefan\Desktop\Tinf_5AAIF_2022\PS\"
