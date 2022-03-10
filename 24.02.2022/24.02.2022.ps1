@@ -54,4 +54,4 @@
 
 #Get-Content $profile
 
-Set-Content $profile -Value "New-PSDrive -Name taif -PSProvider FileSystem -Root C:\Users\Stefan\Desktop\ | out-null"
+# Set-Content $profile -Value "New-PSDrive -Name taif -PSProvider FileSystem -Root C:\Users\Stefan\Desktop\ | out-null"
